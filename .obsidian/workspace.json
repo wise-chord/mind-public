@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ComputerScience/Zsh.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da1aece7ee95fa2f",
+  "active": "b055730a872a5a1d",
   "lastOpenFiles": [
     "ComputerScience/Arch.md",
     "ComputerScience/Zsh.md",
