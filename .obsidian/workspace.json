@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerScience/Arch.md",
-                "mode": "preview",
+                "file": "ComputerScience/Zsh.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arch"
+              "title": "Zsh"
             }
           }
         ]
@@ -176,9 +176,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b055730a872a5a1d",
+  "active": "da1aece7ee95fa2f",
   "lastOpenFiles": [
     "ComputerScience/Arch.md",
+    "ComputerScience/Zsh.md",
     "ComputerScience"
   ]
 }
