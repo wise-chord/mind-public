@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "ComputerScience/Zsh.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -180,6 +180,7 @@
   "lastOpenFiles": [
     "ComputerScience/Arch.md",
     "ComputerScience/Zsh.md",
+    "ComputerScience/Artificial Intelligence.md",
     "ComputerScience"
   ]
 }

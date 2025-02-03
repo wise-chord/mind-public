@@ -7,22 +7,24 @@
 > [!warning]
 > An image that is too old may cause errors in the pacman package manager
 ### 1.1.2 Connect to the internet
-#### 1.1.2.1 plug in network cable
-#### 1.1.2.2 WiFi: iwctl
 > [!important]
-> enter iwctl
-> `# iwctl`
-> 
-> show WiFi devices
-> `[iwd]# device list`
-> 
-> x1 ∈ your devices
-> `[iwd]# station x1 get-networks`
-> x1 ∈ your devices, x2 ∈ your network
-> `[iwd]# station x1 connect x2`
-> 
-> exit iwd
-> `[iwd]# exit`
+> - Plug in network cable
+> - WiFi: iwctl
+> > [!tip]
+> > 
+> > enter iwctl
+> > `# iwctl`
+> > 
+> > show WiFi devices
+> > `[iwd]# device list`
+> > 
+> > x1 ∈ your devices
+> > `[iwd]# station x1 get-networks`
+> > x1 ∈ your devices, x2 ∈ your network
+> > `[iwd]# station x1 connect x2`
+> > 
+> > exit iwd
+> > `[iwd]# exit`
 ### 1.1.3 Update packages and install tmux 
 > [!tip]
 > Although it may possibly no impact, highly recommend to update packages and install tmux before the below steps to prevent unexpected situations
@@ -123,31 +125,31 @@
 > `bsae base-devel linux-firmware amd-ucode intel-ucode`
 > 
 > kernal (you could choose to install one or more of below, but not none of them)
-> * linux: `linux linux-headers`
-> * linux-zen: `linux-zen linux-zen-headers`
-> * linux-lts: `linux-lts linux-lts-headers`
+> - linux: `linux linux-headers`
+> - linux-zen: `linux-zen linux-zen-headers`
+> - linux-lts: `linux-lts linux-lts-headers`
 > 
 > console text editor (you need to install one of them, depends on your habits)
-> * vim: `vim`
-> * nano: `nano`
+> - vim: `vim`
+> - nano: `nano`
 > 
 > some important tools (recommend to install all of this)
-> * grub: `grub efibootmgr`
-> * btrfs tool: `btrfs-progs`
-> * network manager: `networkmanager`
-> * sound tool: `alsa-utils pulseaudio pulseaudio-buletooth`
-> * process monitoring: `htop`
-> * system info display: `neofetch`
-> * git: `git`
+> - grub: `grub efibootmgr`
+> - btrfs tool: `btrfs-progs`
+> - network manager: `networkmanager`
+> - sound tool: `alsa-utils pulseaudio pulseaudio-buletooth`
+> - process monitoring: `htop`
+> - system info display: `neofetch`
+> - git: `git`
 > 
 > input method and fonts (if you need)
-> * japanese input method and fonts: `fcitx5 fcitx5-configtool mozc fcitx5-mozc noto-fonts-cjk adobe-source-han-sans-jp-fonts ttf-unifont`
-> * chinese input method and fonts: `fcitx5 fcitx5-configtool fcitx5-chinese-addons noto-fonts-cjk adobe-source-han-sans-cn-fonts ttf-unifont`
+> - japanese input method and fonts: `fcitx5 fcitx5-configtool mozc fcitx5-mozc noto-fonts-cjk adobe-source-han-sans-jp-fonts ttf-unifont`
+> - chinese input method and fonts: `fcitx5 fcitx5-configtool fcitx5-chinese-addons noto-fonts-cjk adobe-source-han-sans-cn-fonts ttf-unifont`
 > 
 > graphics drivers
-> * intel: `mesa vulkan-intel`
-> * amd: `mesa` and some drivers depend on your gpu (you could visit [arch wiki](https://wiki.archlinux.org) later)
-> * nvidia: you are using nvidia, and i'm sure you can find drivers yourself
+> - intel: `mesa vulkan-intel`
+> - amd: `mesa` and some drivers depend on your gpu (you could visit [arch wiki](https://wiki.archlinux.org) later)
+> - nvidia: you are using nvidia, and i'm sure you can find drivers yourself
 > 
 > if you want to use other shell, please search and install it yourself
 ### 1.1.7 Generate filesystem table
